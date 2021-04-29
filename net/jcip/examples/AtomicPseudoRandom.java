@@ -12,7 +12,7 @@ import net.jcip.annotations.*;
  * @author Brian Goetz and Tim Peierls
  */
 @ThreadSafe
-public class AtomicPseudoRandom extends PseudoRandom {
+public class AtomicPseudoRandom extends net.jcip.examples.PseudoRandom {
     private AtomicInteger seed;
 
     AtomicPseudoRandom(int seed) {
